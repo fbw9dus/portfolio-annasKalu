@@ -1,0 +1,163 @@
+body {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.portfolioPhoto {
+    
+    margin-left: auto;
+    margin-right: auto;
+
+  /*  border: 1em solid wheat;
+    box-sizing: border-box;
+    /*padding-left: .7em;
+    width: 15em;
+    height: 15em;
+    margin: auto;
+    overflow: hidden;
+    background: contain;
+    border-radius: 50%;
+    */
+}
+
+
+
+
+/*div {
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#myPhoto {
+    border-radius: 50%;
+    box-sizing: inherit;
+    border: .25em solid wheat;
+    width: 12em;
+    height: 12em;
+    display: block; /* used to move an image*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+}
+
+#myAfrica {
+    width: 1000px;
+    box-sizing: border-box;
+    margin-left: 7%;
+    margin-right: 5%;
+    display: block;
+}
+
+#handy,#whatsapp {
+    width: 4em;
+    height: 4em;
+    background-color: blue;
+    border-radius: 15% 15% 15% 15%;
+}
+
+#email,#linkedIn,#xing {
+    width: 4em;
+    height: 4em;
+    background-color: blue;
+    border-radius: 15% 15% 15% 15%;
+    border-width: 10em 10em;
+   
+}
+
+.footer {
+    font-size: 1em;
+    text-align: center;
+    color: red;
+    border: .50em solid burlywood;
+    background-color: black;
+    
+}
+
+#siteHeading {
+    padding-left: 7%;
+}
+
+.myafricaBox {
+    border: .02em solid rgb(157, 201, 157);
+}
+
+.mySkills {
+    border: .02em solid rgb(157, 201, 157);
+    
+}
+
+#html, #javascript, #react {
+    width: 1135px;
+    height: 50px;
+}
+
+
+#myName {
+    text-align: center;
+    font-size: 2em;
+}
+
+#myProfession {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav a {
+    display: block;
+    width: 50%;;
+}
+
+.arrowRight {
+
+    color: white;
+    background-color: transparent;
+    float: right;
+}
+
+
+.lebenslaufContent,.portfolioContent {
+    font-size: 1.5em;
+    background-color: darkgrey;
+    color: blanchedalmond;
+    padding-left: 1em;
+    /*width: inherit;
+    */
+    height: 100%;
+    border: .05em solid black;
+    border-width: .05%;
+    text-decoration: none;
+}
+
+
+
+.skillsContent,.kontaktContent {
+
+    font-size: 1.5em;
+    background-color: darkgrey;
+    color: blanchedalmond;
+    padding-left: 1em;
+    /*width: inherit;
+    */
+    height: 100%;
+    border: 0.05em solid black;
+    border-width: .05%;
+}
+
+#testing {
+   height: 100%;
+}
+
+#skilx {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.weiter {
+    border: .02em solid rgb(157, 201, 157);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+}
