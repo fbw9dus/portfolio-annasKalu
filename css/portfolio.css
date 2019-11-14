@@ -2,7 +2,7 @@ body {
     margin-left: 5%;
     margin-top: 5%;
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 .portfolioPhoto {
@@ -10,26 +10,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-  /*  border: 1em solid wheat;
-    box-sizing: border-box;
-    /*padding-left: .7em;
-    width: 15em;
-    height: 15em;
-    margin: auto;
-    overflow: hidden;
-    background: contain;
-    border-radius: 50%;
-    */
+  
 }
-
-
-
-
-/*div {
-    margin-left: auto;
-    margin-right: auto;
-}*/
-
 #myPhoto {
     border-radius: 50%;
     box-sizing: inherit;
@@ -72,12 +54,17 @@ body {
     text-align: center;
     color: red;
     border: .50em solid burlywood;
-    background-color: black;
-    
+    background-color: black;  
 }
 
+.footerContent {
+    margin-top: 5em;
+    margin-bottom: 0;
+    
+}
 #siteHeading {
-    padding-left: 7%;
+    padding-left: 3.3em;
+    margin-top: .25em;
 }
 
 .myafricaBox {
@@ -86,28 +73,28 @@ body {
 
 .mySkills {
     border: .02em solid rgb(157, 201, 157);
-    
+    padding-left: 4.5em;
+    padding-right: 4.5em;
 }
 
 #html, #javascript, #react {
-    width: 1135px;
+    width: 1000px;
     height: 50px;
+    
 }
 
 
 #myName {
     text-align: center;
     font-size: 2em;
+    margin-bottom: .25em;
 }
 
 #myProfession {
     text-align: center;
     font-size: 1.2em;
-}
-
-nav a {
-    display: block;
-    width: 50%;;
+    margin-top: .05em;
+    margin-bottom: 2em;
 }
 
 .arrowRight {
@@ -115,6 +102,9 @@ nav a {
     color: white;
     background-color: transparent;
     float: right;
+    display: block;
+    -webkit-filter: grayscale(100%);/* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 
@@ -123,8 +113,7 @@ nav a {
     background-color: darkgrey;
     color: blanchedalmond;
     padding-left: 1em;
-    /*width: inherit;
-    */
+    display: block;
     height: 100%;
     border: .05em solid black;
     border-width: .05%;
@@ -139,20 +128,17 @@ nav a {
     background-color: darkgrey;
     color: blanchedalmond;
     padding-left: 1em;
-    /*width: inherit;
-    */
     height: 100%;
     border: 0.05em solid black;
     border-width: .05%;
 }
 
-#testing {
-   height: 100%;
-}
 
 #skilx {
     text-align: center;
     font-size: 1.7em;
+    margin-top: 2em;
+    margin-bottom: .10em;
 }
 
 .weiter {
@@ -160,9 +146,36 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-size: 1.4em;
+    padding-top: 2em;
+}
+
+.runterladen {
+    margin: 15em;
+    /* for increasing the space in the box*/
 }
 
 #right {
     width: 2em;
     height: 2em;
 }
+
+#lebenslauf {
+    display: block;
+    text-decoration: none;
+}
+
+h4 {
+    margin: .05em;
+    
+}
+
+h3 {
+    margin: 1em;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 2em;
+    margin-bottom: .25em;
+}
+
