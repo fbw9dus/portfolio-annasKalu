@@ -26,18 +26,19 @@ body {
 }
 
 #myAfrica {
-    width: 1000px;
+    width: 94%;
     box-sizing: border-box;
-    margin-left: 7%;
-    margin-right: 5%;
     display: block;
+    padding-left: 5em;
 }
 
 #handy,#whatsapp {
     width: 4em;
     height: 4em;
-    background-color: blue;
-    border-radius: 15% 15% 15% 15%;
+    border: 50%;
+    
+    
+    
 }
 
 #email,#linkedIn,#xing {
@@ -55,13 +56,22 @@ body {
     color: red;
     border: .50em solid burlywood;
     background-color: black;  
+
+   
 }
 
-.footerContent {
-    margin-top: 5em;
-    margin-bottom: 0;
-    
+#copyrightImage {
+    width: 2em;
+    height: 2em;
 }
+/*
+#copyrightSpan {
+    line-height: 4em;
+    vertical-align: top;
+    padding: 0.50em;
+    
+}*/
+
 #siteHeading {
     padding-left: 3.3em;
     margin-top: .25em;
@@ -78,8 +88,9 @@ body {
 }
 
 #html, #javascript, #react {
-    width: 1000px;
+    width: 100%;
     height: 50px;
+    border-radius: 15% 15% 15% 15%;
     
 }
 
@@ -100,45 +111,66 @@ body {
 .arrowRight {
 
     color: white;
-    background-color: transparent;
-    float: right;
-    display: block;
-    -webkit-filter: grayscale(100%);/* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    padding-left: 90%;
+    display: inline;
+    /*line-height: 4em;
+    vertical-align: top;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    float: right;*/
+    -webkit-filter: brightness(1200%);/* Safari 6.0 - 9.0 */
+    filter: brightness(1200%);
 }
 
-
-.lebenslaufContent,.portfolioContent {
+.contentsHeading {
     font-size: 1.5em;
     background-color: darkgrey;
     color: blanchedalmond;
     padding-left: 1em;
+    padding-top: 2em;
     display: block;
     height: 100%;
     border: .05em solid black;
-    border-width: .05%;
-    text-decoration: none;
+    border-width: .02%;
 }
 
 
 
-.skillsContent,.kontaktContent {
 
-    font-size: 1.5em;
-    background-color: darkgrey;
-    color: blanchedalmond;
-    padding-left: 1em;
-    height: 100%;
-    border: 0.05em solid black;
-    border-width: .05%;
-}
-
-
-#skilx {
+#skilx,#contakt {
     text-align: center;
     font-size: 1.7em;
     margin-top: 2em;
     margin-bottom: .10em;
+}
+
+#contactsInfos {
+    border: .02em solid rgb(157, 201, 157);
+    padding-top: 2em;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+    padding-bottom: 2em;
+}
+
+.contactSektion {
+    margin-bottom: 1em;
+}
+
+#kontactSpan {
+    line-height: 4em;
+    vertical-align: top;
+    margin-bottom: 15em;
+    border-width: 30%;
+    padding: 0.50em;
+    
+}
+
+.icon {
+    display: inline-block;
+    background-color: rgb(0, 255, 34);
+    border-radius: 15%;
+    padding: 3px;
+    box-sizing: border-box;
 }
 
 .weiter {
@@ -154,16 +186,6 @@ body {
     /* for increasing the space in the box*/
 }
 
-#right {
-    width: 2em;
-    height: 2em;
-}
-
-#lebenslauf {
-    display: block;
-    text-decoration: none;
-}
-
 h4 {
     margin: .05em;
     
@@ -171,11 +193,22 @@ h4 {
 
 h3 {
     margin: 1em;
-    text-decoration: none;
+
 }
 
 h2 {
     margin-top: 2em;
     margin-bottom: .25em;
+}
+a {
+    text-decoration: none;
+}
+
+#handy, #email {
+    filter: brightness(1150%);
+}
+
+#email,#linkedIn,#xing {
+    filter: brightness(1150%);
 }
 

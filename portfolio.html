@@ -21,27 +21,27 @@
         <!--use <ul> <li>"Portfolio</li></ul>
                or in CSS change the display to 
                "display: block;"-->
-    <div class="lebenslaufContent">
+    <div class="contentsHeading">
         
-         <h3 id="lebenslauf"><a href="lebenslauf">Lebenslauf
-         <img src="images/rightArrow.svg" 
-         class="arrowRight"></a></i></h3>
+        <h3 id="lebenslauf"><a href="#skillx lebenslauf">Lebenslauf
+             <img src="images/rightArrow.svg"
+             class="arrowRight"></a></i></h3>
     </div>
          
-    <div class="portfolioContent">
+    <div class="contentsHeading">
         <h3 id="portfolio"><a href="portfolio">Portfolio
         <img src="images/rightArrow.svg" 
         class="arrowRight"></a></i></h3>
     </div>
         
-    <div class="skillsContent">
+    <div class="contentsHeading">
         <h3 id="skills"><a href="skills"> Skills 
         <img src="images/rightArrow.svg" 
         class="arrowRight"></a></i></h3>
     </div>
        
-    <div class="kontaktContent">
-        <h3 id="kontakt"><a href="Kontakt"> Kontakt 
+    <div class="contentsHeading">
+        <h3 id="kontakt"><a href="#contakt Kontakt"> Kontakt 
         <img src="images/rightArrow.svg" 
         class="arrowRight"></a></i></h3>
     </div>
@@ -70,9 +70,11 @@
 
     
     <div class="myafricaBox">
-        <img src="images/screenshot2.png" 
-        alt="My Africa Our Home site" id="myAfrica">
+       <span id="website"><a href="images/screenshot2.png"> 
+        <img src="images/screenshot2.svg" 
+        alt="My Africa Our Home site" id="myAfrica"></a></span>
         <h3 id="siteHeading">My Africa Our Home on Wix</h3>
+        
             <br>
         <h1 id="skilx">Skills</h1>
     </div>
@@ -103,48 +105,80 @@
             optimum="90" value="60">at 75/100
         
         </meter>
-        <br>
+    
     
     <!--
     <label for="testing"><h2>Testing</h2></label>
     <br>
     <progress id="testing" max="100" value="85">85%</progress>
                         -->
-    <br>
-    <h1 id="skilx">Meine Kontaktdaten</h1>
+    
+    <h1 id="contakt">Meine Kontaktdaten</h1>
 </div>
-        <p id="contacts">
+        <div id="contactsInfos">
             <a href="tel:+4915213550220">
-            <img src="images/handy.svg" id="handy" 
-            alt="Mobile Number">+4915213550220</a>
-            <br>
-            <br>
+                <span class="icon">
+                    <img src="images/handy.svg" id="handy" alt="Mobile Number">
+                </span>
+                <span id="kontactSpan">
+                    +4915213550220
+                </span>
+            </a>
+
+            <section class="contactSektion"></section>
 
             <a href="mailto:annas.kalu1@gmail.com">
-                <img src="images/email.svg" id="email"
-                alt="My Email Address">annaskalu1@gmail.com>
+                <span class="icon">
+                    <img src="images/email.svg" id="email"alt="My Email Address">
+                </span>
+                <span id="kontactSpan">
+                    annaskalu1@gmail.com
+                </span>
             </a>
-            <br>
-            <br>
+            <section class="contactSektion"></section>
+
             <a href="https://www.linkedin.com/feed/">
-                <img src="images/linkedIn.svg" id="linkedIn" 
-                alt="LinkedIn Account">Onyemaechi Annas Kalu></a>
-            <br>
-            <br>
+                <span class="icon">
+                    <img src="images/linkedIn.svg" id="linkedIn" 
+                    alt="LinkedIn Account">
+                </span>
+                <span id="kontactSpan">
+                    Onyemaechi Annas Kalu
+                </span>
+            </a>
+            
+            <section class="contactSektion"></section>
+            
             <a href="https://www.xing.com/app/startpage">
-                <img src="images/xing.svg" id="xing" 
-                alt="Xing Account">Onyemaechi Annas Kalu></a>
+                <span class="icon">
+                    <img src="images/xing.svg" id="xing"
+                    alt="Xing Account">
+                </span>
+                <span id="kontactSpan">
+                    Onyemaechi Annas Kalu</span>
+            </a>
             
-                <br>
-                <br>
+            <section class="contactSektion"></section>
+
             <a href="004915213550220">
-            <img src="images/whatsapp.svg" id="whatsapp"
-                alt="Whatsapp contact">004915213550220></a>
+                <span class="icon">
+                    <img src="images/whatsapp.svg" id="whatsapp"
+                    alt="Whatsapp contact">
+                </span>
+                <span id="kontactSpan">
+                    004915213550220
+                </span>
+            </a>
             
-        </p>
+        </div>
         <section class="footerContent">
-       <footer class="footer"><img src="images/copyright.png" 
-        id="right">2019-Kalu Onyemaechi Annas</footer>
+            <footer class="footer">
+                    <img src="images/copyright.png" 
+                    id="copyrightImage">
+                <span id="copyrightSpan">
+                    Onyemaechi Annas
+                </span>
+            </footer>
         </section>
 
 </body>
